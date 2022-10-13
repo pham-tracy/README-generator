@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pham-tracy/README-generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/pham-tracy/README-generator/issues"
+  },
+  "homepage": "https://github.com/pham-tracy/README-generator#readme"
 }
