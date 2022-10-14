@@ -29,7 +29,7 @@ const questions = [
     type: "list", // TODO change this to options
     message: "License",
     name: "license",
-    choices: ["MIT", "Apache"],
+    choices: ["MIT", "Apache", "GPL"],
   },
   {
     type: "input",
