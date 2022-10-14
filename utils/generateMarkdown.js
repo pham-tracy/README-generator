@@ -55,13 +55,13 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [Description](#Description)  
-  * [Installation](#Installation)  
-  * [Usage](#Usage)  
-  * [License](#License)  
-  * [Contributing](#Contributing)  
-  * [Tests](#Tests)  
-  * [Questions](#Questions)  
+  * [Description](#description)  
+  * [Installation](#nstallation)  
+  * [Usage](#usage)  
+  * [License](#license)  
+  * [Contributing](#contributing)  
+  * [Tests](#tests)  
+  * [Questions](#questions)  
 
   ## Installation
 
