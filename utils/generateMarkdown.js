@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Returns license badge based on which license is chosen by the user
 function renderLicenseBadge(license) {
   switch (license) {
     case "MIT":
@@ -16,8 +15,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Returns license link based on which license is chosen by the user
 function renderLicenseLink(license) {
   switch (license) {
     case "MIT":
@@ -36,61 +34,66 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  renderLicenseBadge(license);
-  renderLicenseLink(license);
-}
+// function renderLicenseSection(license) {
+//   renderLicenseBadge(license);
+//   renderLicenseLink(license);
+// }
 
-// TODO: Create a function to generate markdown for README
+// Generates markdown for README file
 function generateMarkdown(data) {
-  return `# ${data.title}
+  let licenseBadge = renderLicenseBadge(data.license);
+  let licenseLink = renderLicenseLink(data.license);
+
+  return `
+  
+  # ${data.title} ${licenseBadge}
+
+  ## Description
+
+  ${data.description}
 
 
-${data.description}
+  ## Table of Contents
+
+  * [Description](#Description)  
+  * [Installation](#Installation)  
+  * [Usage](#Usage)  
+  * [License](#License)  
+  * [Contributing](#Contributing)  
+  * [Tests](#Tests)  
+  * [Questions](#Questions)  
+
+  ## Installation
+
+    ${data.installation}
 
 
-## Table of Contents
+  ## Usage
 
-* [Description](#Description)  
-* [Installation](#Installation)  
-* [Usage](#Usage)  
-* [License](#License)  
-* [Contributing](#Contributing)  
-* [Tests](#Tests)  
-* [Questions](#Questions)  
-
-## Installation
-
-${data.installation}
+    ${data.usage}
 
 
-## Usage
+  ## License
 
-${data.usage}
-
-
-## License
-
-${data.license} License is used for this project. Please refer to the LICENSE file in the repository for more details.
+  ${data.license} License is used for this project. Please refer to the following link for more information: ${licenseLink}.
 
 
-## Contributing
-${data.contributing}
+  ## Contributing
+  ${data.contributing}
 
 
-## Tests
+  ## Tests
 
-${data.tests}
+    ${data.tests}
 
 
-## Questions
+  ## Questions
 
-If you have any questions about this project, please visit my github here: https://www.github.com/${data.github}.
+  If you have any questions about this project, please visit my github here: https://www.github.com/${data.github}.
 
-For further questions, please email me at ${data.email}
-`;
+  For further questions, please email me at ${data.email}
+  `;
 }
 
+// exports generateMarkdown function so that it can be used in index.js
 module.exports = generateMarkdown;
-
-// TODO: how to add license badge and links to license section
