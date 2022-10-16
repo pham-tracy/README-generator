@@ -1,4 +1,4 @@
-// Returns license badge based on which license is chosen by the user
+// Returns license badge and link to the license based on which license is chosen by the user
 function renderLicenseBadge(license) {
   switch (license) {
     case "MIT":
@@ -31,13 +31,6 @@ function renderLicenseLink(license) {
       return "";
   }
 }
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {
-//   renderLicenseBadge(license);
-//   renderLicenseLink(license);
-// }
 
 // Generates markdown for README file
 function generateMarkdown(data) {
@@ -89,11 +82,11 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any questions about this project, please visit my github here: https://www.github.com/${data.github}.
+  If you have any questions about this project, please visit my GitHub here: https://www.github.com/${data.github}.
 
-  For further questions, please email me at ${data.email}
+  For further questions, please email me at ${data.email}.
   `;
 }
 
-// exports generateMarkdown function so that it can be used in index.js
+// Exports generateMarkdown function so that it can be used in index.js
 module.exports = generateMarkdown;
