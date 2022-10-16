@@ -26,19 +26,15 @@ In order to use this application, you will need to invoke it by running the foll
 
 ![command-line-interface](./assets/images/CLI%20Terminal%20screenshot.png)
 
-<!-- Add screenshot of CLI (/assets/images/[file name]) -->
-
 ### Sample README
 
 ![sample-README](./assets/images/Sample%20README.png)
-
-<!-- Add screenshot of sample README (/assets/images/[file name]) -->
 
 ## Credits
 
 Starter code was provided by Coding-Boot-Camp: https://github.com/coding-boot-camp/potential-enigma.
 
-License Badges were drawn from by GitHub user lukas-h at https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba. Badges are provided by https://Shields.io.
+License Badges were retrieved from GitHub user lukas-h at https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba. Badges were created by https://Shields.io.
 
 License Links were provided by https://opensource.org/licenses/gpl-license.
 
