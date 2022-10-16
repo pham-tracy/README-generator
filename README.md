@@ -24,13 +24,13 @@ In order to use this application, you will need to invoke it by running the foll
 
 ### Command Line Interface
 
-![command-line-interface]()
+![command-line-interface](./assets/images/CLI%20Terminal%20screenshot.png)
 
 <!-- Add screenshot of CLI (/assets/images/[file name]) -->
 
 ### Sample README
 
-![sample-README]()
+![sample-README](./assets/images/Sample%20README.png)
 
 <!-- Add screenshot of sample README (/assets/images/[file name]) -->
 
