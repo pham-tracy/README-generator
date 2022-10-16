@@ -20,15 +20,15 @@ In order to use this application, you will need to invoke it by running the foll
 
 ### Video Walkthrough
 
-<!-- Add video link -->
+https://drive.google.com/file/d/13h9xUGh5trRO2bfBKpiXGByi_7p64Ipc/view
 
 ### Command Line Interface
 
-![command-line-interface](./assets/images/CLI%20Terminal%20screenshot.png)
+![command-line-interface](./assets/images/CLI%20Terminal_screenshot.png)
 
 ### Sample README
 
-![sample-README](./assets/images/Sample%20README.png)
+![sample-README](./assets/images/README_sample_screenshot.png)
 
 ## Credits
 
