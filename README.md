@@ -20,7 +20,7 @@ In order to use this application, you will need to invoke it by running the foll
 
 ### Video Walkthrough
 
-https://drive.google.com/file/d/13h9xUGh5trRO2bfBKpiXGByi_7p64Ipc/view
+https://drive.google.com/file/d/1Zbf0OhSlsA3PoV21onFZlTbFJjkdiGT-/view
 
 ### Command Line Interface
 
