@@ -36,7 +36,7 @@ Starter code was provided by Coding-Boot-Camp: https://github.com/coding-boot-ca
 
 License Badges were retrieved from GitHub user lukas-h at https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba. Badges were created by https://Shields.io.
 
-License Links were provided by https://opensource.org/licenses/gpl-license.
+License Links were provided by https://opensource.org/licenses.
 
 ## License
 
