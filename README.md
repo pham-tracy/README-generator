@@ -20,6 +20,8 @@ In order to use this application, you will need to invoke it by running the foll
 
 ### Video Walkthrough
 
+https://user-images.githubusercontent.com/110097504/196023050-bf7de675-3cb1-4006-95d7-8efe97861d56.mp4
+
 https://watch.screencastify.com/v/ZpZvXRk1vn03uMsdNxlo
 
 ### Command Line Interface
